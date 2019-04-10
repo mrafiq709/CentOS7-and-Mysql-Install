@@ -1,0 +1,19 @@
+Got the centos7 and open CLI:
+--------------------------------
+vagrant ssh-congig
+
+Then Open MySQL Workbench:
+---------------------------
+Open New Connection
+
+Connection Name: vagrant mysql
+ConnectionType: Standard TCP/IP over SSH
+SSh Hostname: 127.0.0.1:2222
+SSh Username: vagrant
+SSH Key File: F:/Vagrant/CentOS/.vagrant/machines/default/virtualbox/private_key
+MySQL Hostname: 127.0.0.1
+MySQL Server Port: 3306
+Username: root
+
+Press: Test Connection.
+press ok.

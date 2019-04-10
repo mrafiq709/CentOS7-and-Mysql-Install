@@ -1,0 +1,9 @@
+Install Apache in CentOS:
+---------------------------
+sudo yum clean all
+sudo yum -y update
+sudo yum -y install httpd
+rpm -q centos-release
+sudo systemctl start httpd.service
+sudo systemctl enable httpd.service
+sudo systemctl status httpd.service

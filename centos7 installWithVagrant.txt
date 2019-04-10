@@ -1,0 +1,10 @@
+1. Download and install Oracle Virtual box
+2. Download and inastall Vagrant
+3. create Folder: vagrant/centos7/
+4. Open gitbash in that folder
+5. run: vagrant init
+6. Open VagrantFile and edit config.vm.box = "centos/7" this.
+7. run: vagrant up
+8. vagrant ssh
+
+Done !
