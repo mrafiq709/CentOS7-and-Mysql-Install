@@ -5,6 +5,9 @@ centos7, MySQL, Virtual Box, Vagrant, MysqlWorkbench Install and run.
 --------------------------------------------------------------
 Do--> centos7 installWithVagrant.txt
 
+</br> </br>
+<a href="https://imgur.com/MSlCAOm"><img src="https://i.imgur.com/MSlCAOm.png" title="source: imgur.com" /></a>
+
 2.Installing Mysql:
 ---------------------
 Do--> MySqlInstall in CentOS.txt
