@@ -1,3 +1,5 @@
+Go to "/vagrant/centos7/" folder and open git bush.
+
 First Install this after install of CentOS:
 ---------------------------------------------
 vagrant plugin install vagrant-vbguest
