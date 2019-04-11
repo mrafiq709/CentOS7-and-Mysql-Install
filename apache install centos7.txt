@@ -1,4 +1,4 @@
-Install Apache in CentOS:
+1.Install Apache in CentOS:
 ---------------------------
 sudo yum clean all
 sudo yum -y update
@@ -7,3 +7,14 @@ rpm -q centos-release
 sudo systemctl start httpd.service
 sudo systemctl enable httpd.service
 sudo systemctl status httpd.service
+
+2.Now go to "/vagrant/centos7/" directory and open VagarntFile and edit
+-------------------------------------------------------------------------
+config.vm.network "forwarded_port", guest: 80, host: 8080
+vagrant reload --provision
+
+3.Open Browser:
+-------------------
+localhost:8080/
+
+Done !!
