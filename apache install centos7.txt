@@ -11,6 +11,9 @@ sudo systemctl status httpd.service
 2.Now go to "/vagrant/centos7/" directory and open VagarntFile and edit
 -------------------------------------------------------------------------
 config.vm.network "forwarded_port", guest: 80, host: 8080
+
+3.Open Gitbush in this directory:
+----------------------------------
 vagrant reload --provision
 
 3.Open Browser:
