@@ -7,6 +7,7 @@ vagrant destroy && vagrant up
 
 Before install MySQL:
 ------------------------
+vagrant ssh
 hostname
 hostname -f
 sudo yum update
