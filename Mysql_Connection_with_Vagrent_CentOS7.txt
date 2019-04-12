@@ -1,6 +1,6 @@
 Got the centos7 and open CLI:
 --------------------------------
-vagrant ssh-congig
+vagrant ssh-config
 
 Then Open MySQL Workbench:
 ---------------------------
