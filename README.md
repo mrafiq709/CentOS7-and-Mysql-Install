@@ -5,6 +5,20 @@ centos7, MySQL, Virtual Box, Vagrant, MysqlWorkbench, Apache server Install and 
 --------------------------------------------------------------
 Do--> centos7 installWithVagrant.txt
 
+1. Download and install Oracle Virtual box
+2. Download and inastall Vagrant
+3. create Folder: vagrant/centos7/
+4. Open gitbash in that folder
+```
+$ vagrant init
+```
+6. Open VagrantFile and edit config.vm.box = "centos/7" this.
+```
+$ vagrant up
+$ vagrant ssh
+```
+Done !
+
 </br> </br>
 <a href="https://imgur.com/MSlCAOm"><img src="https://i.imgur.com/MSlCAOm.png" title="source: imgur.com" /></a>
 
