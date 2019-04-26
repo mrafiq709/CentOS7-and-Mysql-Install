@@ -56,7 +56,24 @@ $ mysqladmin -u root -p version
 ```
 3.Connect Mysql Workbench with vagrant centos7
 -----------------------------------------------
-Do--> Mysql_Connection_with_Vagrent_CentOS7.txt
+1. Got the centos7 and open CLI:
+
+    $ vagrant ssh-config
+
+2. Then Open MySQL Workbench
+3. Open New Connection
+```
+Connection Name: vagrant mysql
+ConnectionType: Standard TCP/IP over SSH
+SSh Hostname: 127.0.0.1:2222
+SSh Username: vagrant
+SSH Key File: F:/Vagrant/CentOS/.vagrant/machines/default/virtualbox/private_key
+MySQL Hostname: 127.0.0.1
+MySQL Server Port: 3306
+Username: root
+```
+Press: Test Connection.
+press ok.
 
 4.Installing Apache in centos7:
 ----------------------------------
