@@ -72,8 +72,8 @@ MySQL Hostname: 127.0.0.1
 MySQL Server Port: 3306
 Username: root
 ```
-Press: Test Connection.
-press ok.
+4. Press: Test Connection.
+5. press ok.
 
 4.Installing Apache in centos7:
 ----------------------------------
