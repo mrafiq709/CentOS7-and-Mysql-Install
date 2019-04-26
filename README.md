@@ -23,8 +23,37 @@ Done !
 
 2.Installing Mysql:
 ---------------------
-Do--> MySqlInstall in CentOS.txt
+Go to "/vagrant/centos7/" folder and open git bush.
 
+First Install this after install of CentOS:
+---------------------------------------------
+```
+$ vagrant plugin install vagrant-vbguest
+$ vagrant destroy && vagrant up
+```
+Before install MySQL:
+------------------------
+```
+$ vagrant ssh
+$ hostname
+$ hostname -f
+$ sudo yum update
+$ sudo yum install wget
+```
+MySql Instalation in CentOS:
+-----------------------------
+```
+$ wget https://dev.mysql.com/get/mysql80-community-release-el7-2.noarch.rpm
+$ md5sum mysql80-community-release-el7-2.noarch.rpm
+$ sudo rpm -ivh mysql80-community-release-el7-2.noarch.rpm
+$ sudo yum install mysql-server
+$ sudo systemctl start mysqld
+$ sudo systemctl status mysqld
+$ sudo grep 'temporary password' /var/log/mysqld.log
+[Remember This Password]
+$ sudo mysql_secure_installation
+$ mysqladmin -u root -p version
+```
 3.Connect Mysql Workbench with vagrant centos7
 -----------------------------------------------
 Do--> Mysql_Connection_with_Vagrent_CentOS7.txt
