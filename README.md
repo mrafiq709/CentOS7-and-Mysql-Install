@@ -3,7 +3,6 @@ centos7, MySQL, Virtual Box, Vagrant, MysqlWorkbench, Apache server Install and 
 
 1.Insatlling centos7 and vagrant with oracle virtual box:
 --------------------------------------------------------------
-Do--> centos7 installWithVagrant.txt
 
 1. Download and install Oracle Virtual box
 2. Download and inastall Vagrant
